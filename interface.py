@@ -1,4 +1,4 @@
-from project_app.utils import WineQualityPrediction
+from utils import WineQualityPrediction
 from flask import Flask, jsonify, render_template, request
 import config
 
